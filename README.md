@@ -1,5 +1,5 @@
 # timpaDwg
-sebuah web-app khusus desktop mode
+sebuah web-app khusus timpa menimpa
 # bikin folder timpaDawg
 <img width="854" height="437" alt="Screenshot (428)" src="https://github.com/user-attachments/assets/8aa86cfb-28e9-4776-9a6f-c9b20be0466b" />
 
