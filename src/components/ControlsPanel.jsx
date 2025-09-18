@@ -13,6 +13,9 @@ const ControlsPanel = ({
   onExport
 }) => {
   const fileInputRef = useRef(null);
+
+
+  
   const handleFileSelect = (event) => {
     const file = event.target.files[0];
     if (file && file.type.startsWith('image/')) {
@@ -25,6 +28,9 @@ const ControlsPanel = ({
       reader.readAsDataURL(file);
     }
   };
+
+
+
   const handleDrop = (event) => {
     event.preventDefault();
     const file = event.dataTransfer.files[0];
@@ -38,6 +44,9 @@ const ControlsPanel = ({
       reader.readAsDataURL(file);
     }
   };
+
+  
+
   const handleDragOver = (event) => {
     event.preventDefault();
   };

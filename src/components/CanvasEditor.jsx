@@ -38,6 +38,7 @@ const CanvasEditor = forwardRef(({
     ctx.putImageData(imageData, 0, 0);
   }, []);
 
+  // NGAMBIL GAMBAR
   const getImageDimensions = useCallback(() => {
     if (!image || !canvasRef.current) {
       return { width: 0, height: 0, x: 0, y: 0, scale: 1 };
@@ -53,6 +54,8 @@ const CanvasEditor = forwardRef(({
     return { width, height, x, y, scale };
   }, [image]);
 
+
+  // RENDER SI CANVAS
   const renderCanvas = useCallback(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
