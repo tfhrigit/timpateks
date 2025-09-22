@@ -9,3 +9,4 @@ buka terminal di vscode
 # install dependencies
 npm install
 # run project : npm run dev, buka http://localhost:5173
+*
